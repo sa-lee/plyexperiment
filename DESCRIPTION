@@ -7,9 +7,10 @@ Authors@R: c(
       person("Michael", "Lawrence", role = c("aut", "ctb"))
       )
 Depends: SummarizedExperiment
+Imports: dplyr, S4Vectors, BiocGenerics
 Maintainer: Stuart Lee <lee.s@wehi.edu.au>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: Artistic-2.0
 Encoding: UTF-8
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
