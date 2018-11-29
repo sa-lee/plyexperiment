@@ -60,7 +60,7 @@ filter_col <- function(object, ...) {
     pd <- as.data.frame(colData(object))
     pd <- mutate(pd, placeholder_index = seq_len(nrow(pd)))
     pd <- filter(pd, ...) 
-    object[, pd$scater_placeholder_index]
+    object[, pd$placeholder_index]
 }
 
 #' @export
@@ -68,7 +68,7 @@ filter_col <- function(object, ...) {
 #' @importFrom dplyr arrange
 arrange_col <- function(object, ...) {
     pd <- as.data.frame(colData(object))
-    pd <- mutate(pd, scater_placeholder_index = seq_len(nrow(pd)))
+    pd <- mutate(pd, placeholder_index = seq_len(nrow(pd)))
     pd <- arrange(pd, ...) 
-    object[, pd$scater_placeholder_index]
+    object[, pd$placeholder_index]
 }
