@@ -8,6 +8,7 @@ Authors@R: c(
       )
 Depends: SummarizedExperiment
 Imports: dplyr, S4Vectors, BiocGenerics
+Suggests: testthat
 Maintainer: Stuart Lee <lee.s@wehi.edu.au>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
