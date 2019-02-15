@@ -4,14 +4,19 @@ Title: A fluent interface to SummarizedExperiment
 Version: 0.0.99
 Authors@R: c(
       person("Stuart", "Lee", email = "lee.s@wehi.edu.au", role = c("aut", "cre")),
-      person("Michael", "Lawrence", role = c("aut", "ctb"))
+      person("Michael", "Lawrence", role = c("aut", "ctb")),
+      person("Jonathan", "Carroll", email = "rpkg@jcarroll.com.au", role = "ctb")
       )
 Depends: SummarizedExperiment
-Imports: dplyr, S4Vectors, BiocGenerics
-Suggests: testthat
+Imports: dplyr, S4Vectors, BiocGenerics, Biobase, methods
+Suggests: testthat, MultiAssayExperiment
 Maintainer: Stuart Lee <lee.s@wehi.edu.au>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: Artistic-2.0
 Encoding: UTF-8
 RoxygenNote: 6.1.1
+Collate: 
+    'methods.R'
+    'plyexperiment-package.R'
+    'verbs.R'
